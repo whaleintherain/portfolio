@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Regular.ttf);
+}
+h1 {
+  font-family: "Inter";
+  font-size: 7rem;
+}
+h2 {
+  font-family: "Inter";
+  font-size: 3rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #dadff7;
+  color: #462255;
+}
+
+header {
+  background-color: #dadff7;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #462255;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+header .header-content h1 {
+  margin: 0;
+  font-size: 7rem;
+}
+
+header .header-content p {
+  margin: 10px 0 0;
+  font-size: 1.8rem;
+  color: #462255;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.section:nth-child(even) {
+  background-color: #fff;
+}
+
+.section h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #462255;
+  font-family: "Inter", sans-serif;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.section p {
+  margin: 10px 0 0;
+  font-size: 1.8rem;
+  color: #462255;
+}
+
+.section button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.section .arrow {
+  font-size: 2em;
+  margin-top: 30px;
+  color: #5c4999;
+}
+
+footer.contact {
+  background-color: #f0effa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+footer.contact p {
+  margin: 10px 0;
+  color: #777;
+}
+
+footer.contact .social-links {
+  margin: 20px 0;
+}
+
+footer.contact .social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5c4999;
+  font-size: 1.5em;
+}
+
+footer.contact .footer {
+  background-color: #5c4999;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+.small-purple-arrow {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  gap: 10px; /* Space between text and arrow */
+}
+
+.small-purple-arrow-icon {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+}
+.image-row {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 10px; /* Space between images */
+  margin-top: 20px; /* Space above the row */
+}
+.image-row img {
+  max-width: 100%;
+  height: auto;
+}
+#about-me {
+  background-color: #dadff7;
+}
+#experience {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  background-color: #462255;
+}
+
+.experience-item {
+  text-align: center;
+  flex-basis: calc(25% - 20px); /* Adjust as needed, considering margins */
+  margin-bottom: 20px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column; /* Display items in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+.experience-item h1 {
+  color: #dadff7; /* Adjust text color */
+}
+
+.experience-item p {
+  color: #dadff7; /* Adjust text color */
+  font-size: 1.8;
+}
+.creative-career-section {
+  background-color: #dadff7;
+}
+
+.creative-career-section h2 {
+  color: #462255;
+  font-size: 3rem;
+}
+
+.creative-career-section .paragraphs {
+  /* Style for the paragraph container */
+}
+
+.creative-career-section .paragraphs p {
+  font-size: 1.8rem;
+  color: #462255;
+}
+
+.creative-career-section .columns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8;
+  color: #462255;
+}
+
+.creative-career-section .column {
+  width: 20%; /* Adjust the width as needed */
+  font-size: 1.8;
+  color: #462255;
+}
+
+.creative-career-section .column p {
+  /* Style for the text within columns */
+  vertical-align: bottom;
+  font-size: 1.8;
+  color: #462255;
+}
