@@ -102,31 +102,33 @@ header .header-content p {
 }
 
 footer.contact {
-  background-color: #f0effa;
-  padding: 50px 20px;
-  text-align: center;
+  background-color: #dadff7;
+
+  text-align: left;
 }
 
 footer.contact p {
-  margin: 10px 0;
-  color: #777;
+  color: #462255;
+  padding-left: 100px;
+  font-size: 1.8rem;
+  margin-top: 150px;
 }
 
 footer.contact .social-links {
-  margin: 20px 0;
+  margin: 100px 0;
 }
 
 footer.contact .social-links a {
-  margin: 0 10px;
   text-decoration: none;
-  color: #5c4999;
-  font-size: 1.5em;
+  color: #462255;
+  font-size: 1.8rem;
+  padding-left: 100px;
 }
 
 footer.contact .footer {
   background-color: #5c4999;
   color: white;
-  padding: 10px 0;
+  padding: 0px 0;
   margin-top: 30px;
 }
 
@@ -178,6 +180,7 @@ footer.contact .footer {
 
 .experience-item h1 {
   color: #dadff7; /* Adjust text color */
+  font-size: 5rem;
 }
 
 .experience-item p {
@@ -191,6 +194,7 @@ footer.contact .footer {
 .creative-career-section h2 {
   color: #462255;
   font-size: 3rem;
+  padding-left: 100px;
 }
 
 .creative-career-section .paragraphs {
@@ -200,6 +204,7 @@ footer.contact .footer {
 .creative-career-section .paragraphs p {
   font-size: 1.8rem;
   color: #462255;
+  padding-left: 100px;
 }
 
 .creative-career-section .columns {
@@ -207,6 +212,9 @@ footer.contact .footer {
   justify-content: space-between;
   font-size: 1.8;
   color: #462255;
+  gap: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .creative-career-section .column {
@@ -220,4 +228,7 @@ footer.contact .footer {
   vertical-align: bottom;
   font-size: 1.8;
   color: #462255;
+}
+.social-links {
+  vertical-align: bottom;
 }
