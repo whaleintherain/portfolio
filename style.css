@@ -203,6 +203,13 @@ footer.contact .footer {
 .about-about {
   background-color: #dadff7;
 }
+.about-about p {
+  font-size: 2.2rem;
+  max-width: 40ch;
+}
+.nice-to-meet-you {
+  font-size: 3rem;
+}
 #experience {
   display: flex;
   justify-content: space-around; /* Adjust as needed */
@@ -279,6 +286,7 @@ footer.contact .footer {
 .footer-info-copyright {
   margin-top: 3rem;
   padding: 2rem;
+  font-size: 2rem;
 }
 .logo-kate-ilias {
   margin-top: 3rem;
