@@ -11,6 +11,10 @@ h2 {
   font-size: 3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -21,8 +25,9 @@ body {
 header {
   background-color: #dadff7;
   text-align: center;
-  padding: 50px 20px;
+  /* padding: 50px 20px; */
   position: relative;
+  height: 100px;
 }
 
 header nav ul {
@@ -32,9 +37,18 @@ header nav ul {
   display: flex;
   justify-content: flex-end;
   gap: 40px;
-  position: absolute;
-  top: 20px;
-  right: 40px;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.kate-ilias-home {
+  text-decoration: none;
+  color: #462255;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 header nav ul li a {
@@ -44,17 +58,36 @@ header nav ul li a {
   font-size: 1.8rem;
 }
 
-header .header-content h1 {
+header .hero-content h1 {
   margin: 0;
   font-size: 7rem;
 }
 
-header .header-content p {
+header .hero-content p {
   margin: 10px 0 0;
   font-size: 1.8rem;
   color: #462255;
 }
-
+.hero-section {
+  height: calc(100vh - 100px);
+  display: grid;
+  place-items: center;
+}
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: -5rem;
+}
+.hero-content h1 {
+  margin: 0;
+}
+.hero-content p {
+  max-width: 30ch;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
 .section {
   padding: 50px 20px;
   text-align: center;
@@ -71,6 +104,8 @@ header .header-content p {
   margin-bottom: 20px;
   color: #462255;
   font-family: "Inter", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .section img {
@@ -83,6 +118,8 @@ header .header-content p {
   margin: 10px 0 0;
   font-size: 1.8rem;
   color: #462255;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section button {
@@ -103,7 +140,6 @@ header .header-content p {
 
 footer.contact {
   background-color: #dadff7;
-
   text-align: left;
 }
 
@@ -116,6 +152,7 @@ footer.contact p {
 
 footer.contact .social-links {
   margin: 100px 0;
+  background-color: #dadff7;
 }
 
 footer.contact .social-links a {
@@ -123,11 +160,11 @@ footer.contact .social-links a {
   color: #462255;
   font-size: 1.8rem;
   padding-left: 100px;
+  background-color: #dadff7;
 }
 
 footer.contact .footer {
   background-color: #5c4999;
-  color: white;
   padding: 0px 0;
   margin-top: 30px;
 }
@@ -136,13 +173,14 @@ footer.contact .footer {
   display: inline-flex;
   align-items: center;
   background-color: transparent;
-
   border: none;
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
   gap: 10px; /* Space between text and arrow */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .small-purple-arrow-icon {
@@ -160,6 +198,9 @@ footer.contact .footer {
   height: auto;
 }
 #about-me {
+  background-color: #dadff7;
+}
+.about-about {
   background-color: #dadff7;
 }
 #experience {
@@ -180,7 +221,8 @@ footer.contact .footer {
 
 .experience-item h1 {
   color: #dadff7; /* Adjust text color */
-  font-size: 5rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 .experience-item p {
@@ -205,12 +247,13 @@ footer.contact .footer {
   font-size: 1.8rem;
   color: #462255;
   padding-left: 100px;
+  font-weight: bold;
 }
 
 .creative-career-section .columns {
   display: flex;
   justify-content: space-between;
-  font-size: 1.8;
+  font-size: 1.8rem;
   color: #462255;
   gap: 40px;
   padding-left: 100px;
@@ -229,6 +272,38 @@ footer.contact .footer {
   font-size: 1.8;
   color: #462255;
 }
+
+.footer-info {
+  text-align: center;
+}
+.footer-info-copyright {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.logo-kate-ilias {
+  margin-top: 3rem;
+}
 .social-links {
-  vertical-align: bottom;
+  justify-content: space-between;
+  gap: 100px;
+}
+.social-links-1 {
+  display: inline-flex;
+}
+.social-links-2 {
+  display: inline-flex;
+}
+.contact-social-links img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease;
+  padding: 1rem;
+}
+.email {
+  text-align: center;
+}
+.contact-section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
