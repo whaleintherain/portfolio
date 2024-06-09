@@ -197,15 +197,24 @@ footer.contact .footer {
   max-width: 100%;
   height: auto;
 }
+.about {
+  display: grid;
+  place-items: center;
+}
 #about-me {
   background-color: #dadff7;
 }
 .about-about {
   background-color: #dadff7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .about-about p {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   max-width: 40ch;
+  margin: 10px 0 0;
 }
 .nice-to-meet-you {
   font-size: 3rem;
@@ -284,12 +293,11 @@ footer.contact .footer {
   text-align: center;
 }
 .footer-info-copyright {
-  margin-top: 3rem;
   padding: 2rem;
   font-size: 2rem;
 }
 .logo-kate-ilias {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .social-links {
   justify-content: space-between;
