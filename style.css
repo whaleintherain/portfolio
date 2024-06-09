@@ -213,11 +213,14 @@ footer.contact .footer {
 }
 .about-about p {
   font-size: 1.8rem;
-  max-width: 40ch;
+  max-width: 27ch;
   margin: 10px 0 0;
 }
+.about-about img {
+  margin-bottom: 3rem;
+}
 .nice-to-meet-you {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 #experience {
   display: flex;
@@ -310,6 +313,7 @@ footer.contact .footer {
 }
 .email {
   text-align: center;
+  margin-top: 0;
 }
 .email p {
   font-size: 2rem;
