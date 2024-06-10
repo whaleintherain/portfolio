@@ -285,28 +285,87 @@ footer.contact .footer {
   position: relative; /* Ensure the container has a relative position */
 }
 
-.ellipse-container {
+.ellipse-container-01 {
   position: relative; /* Relative positioning for the container */
   display: inline-block; /* Ensure the container fits around its children */
 }
-
-.ellipse {
-  display: block; /* Ensure the ellipse image is a block element */
-}
-
 .steps {
   position: absolute; /* Position the steps absolutely within the container */
-  top: 0%; /* Adjust these values to position the icon correctly */
-  left: 0%; /* Adjust these values to position the icon correctly */
+  top: -50%; /* Adjust these values to position the icon correctly */
+  left: -40%; /* Adjust these values to position the icon correctly */
+  right: -50%;
 }
 .column-2 {
   width: 25ch;
 }
+.svg-container-02 {
+  position: relative; /* Ensure the container has a relative position */
+}
+
+.ellipse-container-02 {
+  position: relative; /* Relative positioning for the container */
+  display: inline-block; /* Ensure the container fits around its children */
+}
+.masters-degree {
+  position: absolute; /* Position the steps absolutely within the container */
+  top: 20%; /* Adjust these values to position the icon correctly */
+  left: 30%; /* Adjust these values to position the icon correctly */
+  transform: translate(-50%, -50%);
+}
+.svg-container-03 {
+  position: relative; /* Ensure the container has a relative position */
+}
+
+.ellipse-container-03 {
+  position: relative; /* Relative positioning for the container */
+  display: inline-block; /* Ensure the container fits around its children */
+}
+.countries {
+  position: absolute; /* Position the steps absolutely within the container */
+  top: -50%; /* Adjust these values to position the icon correctly */
+  left: -40%; /* Adjust these values to position the icon correctly */
+  right: -40%;
+}
+.ellipse-orange {
+  display: block; /* Ensure the ellipse image is a block element */
+}
+.ellipse-pink {
+  display: block; /* Ensure the ellipse image is a block element */
+}
+
 .column-3 {
   width: 32ch;
 }
+.svg-container-04 {
+  position: relative; /* Ensure the container has a relative position */
+}
+
+.ellipse-container-04 {
+  position: relative; /* Relative positioning for the container */
+  display: inline-block; /* Ensure the container fits around its children */
+}
+.photography {
+  position: absolute; /* Position the steps absolutely within the container */
+  top: -40%; /* Adjust these values to position the icon correctly */
+  left: -20%; /* Adjust these values to position the icon correctly */
+  right: -40%;
+}
 .column-4 {
   width: 32ch;
+}
+.svg-container-05 {
+  position: relative; /* Ensure the container has a relative position */
+}
+
+.ellipse-container-05 {
+  position: relative; /* Relative positioning for the container */
+  display: inline-block; /* Ensure the container fits around its children */
+}
+.ux-ui-design-kate-ilias {
+  position: absolute; /* Position the steps absolutely within the container */
+  top: -40%; /* Adjust these values to position the icon correctly */
+  left: -30%; /* Adjust these values to position the icon correctly */
+  right: -50%;
 }
 .column-5 {
   width: 37ch;
