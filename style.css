@@ -270,24 +270,36 @@ footer.contact .footer {
 }
 
 .creative-career-section .columns {
-  display: flex;
-  justify-content: space-between;
   font-size: 1.8rem;
   color: #462255;
-  gap: 40px;
+
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .creative-career-section .column {
-  width: 20%; /* Adjust the width as needed */
+  width: 50%; /* Adjust the width as needed */
   font-size: 1.8;
   color: #462255;
 }
-
+.column-1 {
+  width: 25ch;
+}
+.column-2 {
+  width: 25ch;
+}
+.column-3 {
+  width: 32ch;
+}
+.column-4 {
+  width: 28ch;
+}
+.column-5 {
+  width: 37ch;
+}
 .creative-career-section .column p {
   /* Style for the text within columns */
-  vertical-align: bottom;
+
   font-size: 1.8;
   color: #462255;
 }
