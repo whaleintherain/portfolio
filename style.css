@@ -281,6 +281,24 @@ footer.contact .footer {
 .column-1 {
   width: 25ch;
 }
+.svg-container-01 {
+  position: relative; /* Ensure the container has a relative position */
+}
+
+.ellipse-container {
+  position: relative; /* Relative positioning for the container */
+  display: inline-block; /* Ensure the container fits around its children */
+}
+
+.ellipse {
+  display: block; /* Ensure the ellipse image is a block element */
+}
+
+.steps {
+  position: absolute; /* Position the steps absolutely within the container */
+  top: 0%; /* Adjust these values to position the icon correctly */
+  left: 0%; /* Adjust these values to position the icon correctly */
+}
 .column-2 {
   width: 25ch;
 }
