@@ -279,15 +279,18 @@ footer.contact .footer {
   color: #462255;
 }
 .column-1 {
-  width: 25ch;
+  width: 40ch;
+  text-align: left;
 }
 .svg-container-01 {
-  position: relative; /* Ensure the container has a relative position */
+  display: flex;
+  align-items: center;
 }
 
 .ellipse-container-01 {
   position: relative; /* Relative positioning for the container */
   display: inline-block; /* Ensure the container fits around its children */
+  margin-right: 10px; /* Ensure the container fits around its children */
 }
 .steps {
   position: absolute; /* Position the steps absolutely within the container */
@@ -295,16 +298,23 @@ footer.contact .footer {
   left: -40%; /* Adjust these values to position the icon correctly */
   right: -50%;
 }
+.svg-container-01 p {
+  padding-left: 3rem;
+  margin: 0;
+}
 .column-2 {
   width: 25ch;
+  text-align: left;
 }
 .svg-container-02 {
-  position: relative; /* Ensure the container has a relative position */
+  display: flex;
+  align-items: center;
 }
 
 .ellipse-container-02 {
   position: relative; /* Relative positioning for the container */
-  display: inline-block; /* Ensure the container fits around its children */
+  display: inline-block;
+  margin-right: 10px;
 }
 .masters-degree {
   position: absolute; /* Position the steps absolutely within the container */
@@ -312,19 +322,29 @@ footer.contact .footer {
   left: 30%; /* Adjust these values to position the icon correctly */
   transform: translate(-50%, -50%);
 }
+.svg-container-02 p {
+  padding-left: 3rem;
+  margin: 0;
+}
 .svg-container-03 {
-  position: relative; /* Ensure the container has a relative position */
+  display: flex;
+  align-items: center;
 }
 
 .ellipse-container-03 {
   position: relative; /* Relative positioning for the container */
   display: inline-block; /* Ensure the container fits around its children */
+  margin-right: 10px;
 }
 .countries {
   position: absolute; /* Position the steps absolutely within the container */
   top: -50%; /* Adjust these values to position the icon correctly */
   left: -40%; /* Adjust these values to position the icon correctly */
   right: -40%;
+}
+.svg-container-03 p {
+  padding-left: 3rem;
+  margin: 0;
 }
 .ellipse-orange {
   display: block; /* Ensure the ellipse image is a block element */
@@ -335,14 +355,17 @@ footer.contact .footer {
 
 .column-3 {
   width: 32ch;
+  text-align: left;
 }
 .svg-container-04 {
-  position: relative; /* Ensure the container has a relative position */
+  display: flex;
+  align-items: center;
 }
 
 .ellipse-container-04 {
   position: relative; /* Relative positioning for the container */
   display: inline-block; /* Ensure the container fits around its children */
+  margin-right: 10px;
 }
 .photography {
   position: absolute; /* Position the steps absolutely within the container */
@@ -350,16 +373,23 @@ footer.contact .footer {
   left: -20%; /* Adjust these values to position the icon correctly */
   right: -40%;
 }
+.svg-container-04 p {
+  padding-left: 3rem;
+  margin: 0;
+}
 .column-4 {
   width: 32ch;
+  text-align: left;
 }
 .svg-container-05 {
-  position: relative; /* Ensure the container has a relative position */
+  display: flex;
+  align-items: center;
 }
 
 .ellipse-container-05 {
   position: relative; /* Relative positioning for the container */
   display: inline-block; /* Ensure the container fits around its children */
+  margin-right: 10px;
 }
 .ux-ui-design-kate-ilias {
   position: absolute; /* Position the steps absolutely within the container */
@@ -367,8 +397,13 @@ footer.contact .footer {
   left: -30%; /* Adjust these values to position the icon correctly */
   right: -50%;
 }
+.svg-container-05 p {
+  padding-left: 3rem;
+  margin: 0;
+}
 .column-5 {
   width: 37ch;
+  text-align: left;
 }
 .creative-career-section .column p {
   /* Style for the text within columns */
