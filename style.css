@@ -256,13 +256,15 @@ footer.contact .footer {
   color: #462255;
   font-size: 3rem;
   padding-left: 100px;
+  margin-top: 8rem;
 }
 
 .creative-career-section .paragraphs p {
   font-size: 1.8rem;
   color: #462255;
   padding-left: 100px;
-  font-weight: bold;
+
+  padding-bottom: 3rem;
 }
 
 .creative-career-section .columns {
@@ -326,6 +328,7 @@ footer.contact .footer {
   padding-left: 3rem;
   margin: 0;
 }
+
 .svg-container-03 {
   display: flex;
   align-items: center;
