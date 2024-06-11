@@ -304,6 +304,10 @@ footer.contact .footer {
   padding-left: 3rem;
   margin: 0;
 }
+.small-dots-01 {
+  padding-bottom: 2rem;
+}
+
 .column-2 {
   width: 25ch;
   text-align: left;
@@ -327,6 +331,10 @@ footer.contact .footer {
 .svg-container-02 p {
   padding-left: 3rem;
   margin: 0;
+}
+.small-dots-02 {
+  padding: 3rem;
+  margin-left: 5rem;
 }
 
 .svg-container-03 {
