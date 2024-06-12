@@ -113,6 +113,9 @@ header nav ul li a:hover {
   margin-left: 3rem;
   margin-top: 0.5rem;
 }
+.pink-dot {
+  color: var(--color-pink);
+}
 .section {
   padding: 3rem 1.5rem;
   text-align: center;
