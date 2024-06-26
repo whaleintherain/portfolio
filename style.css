@@ -162,6 +162,9 @@ header nav ul li a:hover {
   max-height: 600px;
   width: auto;
 }
+.brochure img {
+  max-width: 1280px;
+}
 
 .images-wrap figure {
   margin: 0;
